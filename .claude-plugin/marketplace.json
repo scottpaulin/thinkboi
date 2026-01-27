@@ -5,20 +5,20 @@
     "email": "scottpaulin@users.noreply.github.com"
   },
   "metadata": {
-    "description": "Claude skills for transforming voice notes into structured LinkedIn posts",
+    "description": "Claude skills for transforming voice notes into structured posts for LinkedIn and Twitter",
     "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "thinkboi",
-      "description": "Transform raw voice notes from Notion into clarified, structured LinkedIn posts through conversational refinement",
+      "description": "Transform raw voice notes from Notion into clarified, structured posts for LinkedIn and Twitter through conversational refinement",
       "source": "./",
       "strict": false,
       "skills": [
         "./skills/read-musings",
         "./skills/organize-musings",
         "./skills/clarify-musings",
-        "./skills/draft-linkedin-post"
+        "./skills/draft-post"
       ]
     }
   ]
