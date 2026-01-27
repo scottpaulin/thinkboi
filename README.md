@@ -6,10 +6,16 @@ A collection of Claude skills designed to transform raw notes into clear, struct
 
 Thinkboi helps bridge the gap between initial ideas captured in voice notes and polished, well-articulated content. The skills focus on thought clarification through an interactive process—asking targeted follow-up questions to help refine and structure your thinking.
 
+## The Musings Page
+
+The workflow centers around a Notion page called "Musings"—a place to capture whatever is top of mind. The process is simple: hit voice record, talk through something that got you thinking, and let the transcription land in Notion. These raw thoughts might be interesting to share with others, but they need structure and clarity first. That's where Thinkboi comes in.
+
+The Musings page is intentionally unfiltered. It contains the rough, unpolished seeds of ideas. Thinkboi's job is to help develop those seeds into something coherent enough to share.
+
 ## How It Works
 
-1. **Capture**: Record thoughts and ideas using voice-to-text (e.g., Wispr Flow) into a Notion page
-2. **Connect**: Thinkboi reads from your Notion workspace via the Notion MCP integration
+1. **Capture**: Record thoughts using voice-to-text (Wispr Flow) into your Musings page in Notion
+2. **Connect**: Thinkboi reads from the Musings page via the Notion MCP integration
 3. **Clarify**: The skills analyze your notes and ask follow-up questions to surface underlying insights
 4. **Structure**: Transform clarified thoughts into coherent, professional content
 
