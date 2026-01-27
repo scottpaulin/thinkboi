@@ -12,7 +12,7 @@ The Musings page is intentionally unfiltered. It contains rough, unpolished seed
 
 1. **Capture**: Record thoughts using voice-to-text (Wispr Flow) into your Musings page in Notion
 2. **Connect**: Thinkboi reads from the Musings page via the Notion MCP integration
-3. **Clarify**: Have a conversation with the agent via voice mode to work through your ideas and make them presentable for a professional audience
+3. **Clarify**: The agent prompts you with questions to work through your ideas. Answer via voice or text, going back and forth until things are clear and presentable for a professional audience
 4. **Structure**: Transform clarified thoughts into coherent, professional content
 
 ## Requirements
