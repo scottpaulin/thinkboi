@@ -41,20 +41,20 @@ Search for musings ready to become posts:
 
 ## Twitter Posts
 
-Twitter offers two formats: single tweets and threads.
+Prefer single tweets over threads. Single tweets are easier to consume and share.
 
-### Single Tweet
+### Single Tweet (Preferred)
 
-Best for punchy insights, observations, or questions.
+Best for punchy insights, observations, or questions. Most musings should become single tweets.
 
 - Maximum 280 characters
 - Ideal length: 100-250 characters
 - One clear idea per tweet
 - 1-2 hashtags maximum, or none
 
-### Thread
+### Thread (Optional)
 
-Best for deeper thoughts, stories, or frameworks. Threads get 3x more engagement than single tweets.
+Only use threads when the idea truly requires multiple tweets to convey. Most ideas should be distilled into a single tweet.
 
 **Thread Structure:**
 1. **Hook Tweet**: The first tweet must grab attention and promise value. This determines if people read the rest.
@@ -126,7 +126,7 @@ When related clarified musings can strengthen each other:
 
 1. Use Notion MCP to find clarified musings
 2. Present options and let user select one or more related musings
-3. Ask which platform: LinkedIn or Twitter (single tweet or thread)
+3. Ask which platform: LinkedIn or Twitter (default to single tweet for Twitter)
 4. Review clarification notes for core message and audience
 5. Suggest a post style and hook approach
 6. Draft the post following the platform-specific structure
