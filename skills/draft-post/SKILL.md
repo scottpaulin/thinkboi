@@ -35,7 +35,8 @@ Search for musings ready to become posts:
 - Bullets or numbers for lists
 - Aim for 1,000-1,500 characters
 - Under 300 characters for quick insights
-- 3-5 hashtags at the end
+- No hashtags
+- No dashes or em-dashes. Use periods and shorter sentences instead.
 
 ---
 
@@ -139,12 +140,51 @@ When related clarified musings can strengthen each other:
 
 ## Storage
 
-Add to the musing entry in Notion:
+Posts are stored as sub-pages under `Musings/Posts/`. Each post page represents one core insight and can have drafts for multiple platforms.
 
-- **Draft**: The formatted post ready for publishing
-- **Platform**: LinkedIn or Twitter
-- **Post Style**: Which style was used
-- **Date Drafted**: When the draft was created
-- **Status**: Update to "Ready to Post"
+### Post Page Structure
 
-After posting, user can update status to "Posted" and optionally add engagement notes.
+```
+## [Post Title]
+
+**Source Musings:** 
+- [Link to musing 1]
+- [Link to musing 2 if combined]
+
+**Core Message:** [One sentence summary of the insight]
+
+---
+
+### LinkedIn
+**Status:** Not Drafted / Ready to Post / Posted (date)
+**Draft:**
+[Full LinkedIn post]
+
+**Engagement Notes:** (add after posting)
+
+---
+
+### Twitter
+**Status:** Not Drafted / Ready to Post / Posted (date)
+**Draft:**
+[Single tweet or thread]
+
+**Engagement Notes:** (add after posting)
+```
+
+### Creating a New Post
+
+1. Create a sub-page under `Musings/Posts/` with the post title
+2. Link to source musing(s)
+3. Add the core message
+4. Add the platform section with the draft
+5. Set status to "Ready to Post"
+6. Update the source musing entry status to "Drafted" with a link to the post page
+
+### After Posting
+
+Update the platform section:
+- Change status to "Posted (date)"
+- Add engagement notes (reactions, comments, insights)
+
+This history becomes reference material for future posts.

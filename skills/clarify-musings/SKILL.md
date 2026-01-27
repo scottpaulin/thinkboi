@@ -39,12 +39,14 @@ Ask one or two questions at a time. Let the user respond via voice or text. Cont
 
 ## Storing Clarified Musings
 
-After clarification, update the musing entry in its Notion sub-page:
+After clarification, update the musing entry in its Notion sub-page.
+
+**IMPORTANT:** Preserve all existing content. Do NOT remove or replace the Original Text. Add new sections below it.
 
 ### Updated Entry Format
 
 1. **Summary**: Update if the clarification revealed a sharper focus
-2. **Original Text**: Keep preserved, unchanged
+2. **Original Text**: Keep preserved, unchanged (never delete this)
 3. **Clarification Notes**: Add a new section containing:
    - Key questions asked
    - User responses (summarized or quoted)
