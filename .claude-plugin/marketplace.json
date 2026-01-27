@@ -1,0 +1,25 @@
+{
+  "name": "thinkboi",
+  "owner": {
+    "name": "Scott Paulin",
+    "email": "scottpaulin@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Claude skills for transforming voice notes into structured LinkedIn posts",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "thinkboi",
+      "description": "Transform raw voice notes from Notion into clarified, structured LinkedIn posts through conversational refinement",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/read-musings",
+        "./skills/organize-musings",
+        "./skills/clarify-musings",
+        "./skills/draft-linkedin-post"
+      ]
+    }
+  ]
+}
