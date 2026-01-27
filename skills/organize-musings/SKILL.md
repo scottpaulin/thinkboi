@@ -47,7 +47,21 @@ For each musing added to the theme page, include:
 4. If not, create a new sub-page for the theme
 5. Add the musing to the appropriate theme sub-page with the format above
 6. If a musing spans multiple themes, place it in the most relevant one and note the related themes
-7. After organizing, summarize what was processed and highlight any musings with strong follow-up potential
+7. Clear the organized musings from the parent page (see "Clearing the Parent Page" section below)
+8. After organizing, summarize what was processed and highlight any musings with strong follow-up potential
+
+## Clearing the Parent Page
+
+After musings have been organized into sub-pages, clear the raw content from the parent Musings page.
+
+**IMPORTANT:** Do NOT use `replace_content` on the Musings page - this will delete all sub-pages.
+
+Instead, use `replace_content_range` with `selection_with_ellipsis` to target only the raw musing text:
+- Identify the start and end of the raw musings content
+- Use ellipsis format: `"The strange th...the split.\n"` (first ~10 chars ... last ~10 chars)
+- Replace with a brief placeholder like: `"Add new musings here - they will be organized periodically."`
+
+This preserves the sub-pages while clearing the processed raw content.
 
 ## Handling Ambiguity
 

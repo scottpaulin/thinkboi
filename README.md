@@ -22,7 +22,7 @@ The Musings page is intentionally unfiltered. It contains rough, unpolished seed
 
 ## Development
 
-This project is developed entirely using Claude Code on mobile with voice input via Wispr Flow.
+This project is developed mostly using Wispr Flow on mobile, with a little bit of Wispr Flow on desktop via Cursor.
 
 ## License
 
