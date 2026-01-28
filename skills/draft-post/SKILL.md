@@ -91,6 +91,19 @@ Objectivity is fine. Critique of ideas is fine. Personal attacks are not.
 
 ---
 
+## Writing Level
+
+Write all posts in fifth-grade English. This ensures content is accessible and easy to read.
+
+- Use simple, everyday words instead of jargon or complex vocabulary
+- Keep sentences short and direct
+- Prefer active voice over passive voice
+- Explain concepts in plain language
+- If a simpler word works, use it
+- Aim for a Flesch-Kincaid grade level of 5 or below
+
+---
+
 ## Post Styles (Both Platforms)
 
 ### Personal Story
