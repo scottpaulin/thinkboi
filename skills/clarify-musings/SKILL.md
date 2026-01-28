@@ -74,3 +74,12 @@ After clarification, update the musing entry in its Notion sub-page.
 - If something is unclear, ask for an example
 - If the idea is broad, ask what aspect matters most
 - If the user seems stuck, offer options or reframe the question
+
+## Tone Considerations
+
+During clarification, gently steer toward constructive framing:
+
+- If a musing criticizes a specific company or person, ask what lesson or pattern can be drawn without naming them
+- Focus on insights and alternatives rather than complaints
+- Help the user articulate what they would do differently or recommend instead
+- The goal is posts that share value, not vent frustration

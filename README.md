@@ -1,5 +1,7 @@
 # Thinkboi
 
+Writing skills shouldn't be the barrier that keeps someone's ideas from reaching the world.
+
 A collection of Claude skills that transform raw voice notes into clear, structured thoughts for LinkedIn and other professional platforms.
 
 ## The Musings Page
