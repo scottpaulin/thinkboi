@@ -77,6 +77,20 @@ Only use threads when the idea truly requires multiple tweets to convey. Most id
 
 ---
 
+## Tone Guidelines
+
+Keep posts constructive and professional. Share perspectives without tearing others down.
+
+- Never criticize specific companies or individuals by name
+- Focus on ideas, patterns, and insights rather than calling out bad actors
+- Frame contrarian views as alternative perspectives, not attacks on opposing views
+- If referencing an industry problem, focus on the solution or lesson rather than blame
+- Match the platform vibe: LinkedIn is collegial and professional; Twitter can be direct but still respectful
+
+Objectivity is fine. Critique of ideas is fine. Personal attacks are not.
+
+---
+
 ## Post Styles (Both Platforms)
 
 ### Personal Story
