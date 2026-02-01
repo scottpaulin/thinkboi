@@ -7,14 +7,29 @@ description: Guide users through clarifying raw musings with follow-up questions
 
 This skill helps users clarify their raw musings through a conversational back-and-forth, preparing them to become professional posts.
 
+## Musing Status Lifecycle
+
+Musings progress through these statuses:
+
+1. **Raw**: Unprocessed, as captured from voice notes
+2. **Clarified**: Worked through with follow-up questions, ready for drafting
+
+Note: "Drafted" and "Posted" are post statuses, not musing statuses. A clarified musing can be used in multiple posts. Track usage with the "Used In Posts" field rather than changing musing status.
+
+Only work with musings at the appropriate status for each skill.
+
+---
+
 ## Finding Musings to Clarify
 
 Search for musings that need clarification:
 
 1. Check organized theme sub-pages for musings with status "Raw"
 2. Check the main Musings page for any unprocessed content
-3. Prioritize musings flagged with "Follow-up Potential"
-4. Present a list of candidates and let the user choose, or suggest one to start with
+3. Prioritize musings flagged with high "Follow-up Potential"
+4. **Skip musings with status "Clarified"** - these have already been clarified (though they can be re-clarified if the user wants to explore a different angle)
+5. **Check for incorporated content**: Some "Raw" musings may have been used as supporting material in another post. Check the "Used In Posts" field on existing musings for content overlap before presenting candidates.
+6. Present a list of candidates and let the user choose, or suggest one to start with
 
 ## The Clarification Process
 
@@ -55,7 +70,8 @@ After clarification, update the musing entry in its Notion sub-page.
    - Any examples or stories surfaced
 4. **Date Clarified**: When the clarification happened
 5. **Status**: Update to "Clarified"
-6. **Follow-up Potential**: Update based on how promising the clarified idea is
+6. **Used In Posts**: List of links to posts that have used this musing (added by draft-post skill)
+7. **Follow-up Potential**: Update based on how promising the clarified idea is
 
 ## Instructions
 

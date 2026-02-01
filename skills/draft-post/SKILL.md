@@ -7,15 +7,34 @@ description: Transform clarified musings into well-structured posts for LinkedIn
 
 This skill transforms clarified musings into posts formatted for LinkedIn or Twitter.
 
+## Musing Status Lifecycle
+
+Musings have these statuses:
+
+1. **Raw**: Unprocessed, as captured from voice notes
+2. **Clarified**: Worked through with follow-up questions, ready for drafting
+
+Posts (not musings) have these statuses:
+
+1. **Ready to Post**: Draft complete, waiting to publish
+2. **Posted (date)**: Published to the platform
+
+A clarified musing can be used in multiple posts. Track usage with the "Used In Posts" field on the musing entry.
+
+Only draft musings with status "Clarified". Skip "Raw" musings (needs clarification first).
+
+---
+
 ## Finding Content to Draft
 
 Search for musings ready to become posts:
 
 1. Look for musings with status "Clarified" in theme sub-pages
 2. Review the clarification notes for core message, audience, and examples
-3. Consider combining related clarified musings if they strengthen each other
-4. Let the user choose which musing(s) to work with
-5. Ask the user which platform they want to draft for: LinkedIn or Twitter
+3. Note any existing posts in the "Used In Posts" field - musings can be reused, but check for overlap
+4. Consider combining related clarified musings if they strengthen each other
+5. Let the user choose which musing(s) to work with
+6. Ask the user which platform they want to draft for: LinkedIn or Twitter
 
 ---
 
@@ -206,7 +225,7 @@ Posts are stored as sub-pages under `Musings/Posts/`. Each post page represents 
 3. Add the core message
 4. Add the platform section with the draft
 5. Set status to "Ready to Post"
-6. Update the source musing entry status to "Drafted" with a link to the post page
+6. Update the source musing entry: add the post link to "Used In Posts" field (do not change musing status - it stays "Clarified" so it can be reused)
 
 ### After Posting
 
